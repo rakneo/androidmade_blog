@@ -16,10 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-
+from androidmade_site import blog
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include(blog.urls))
+    url(r'^$', blog.views.post_list, name='post_list'),
 
 ]
