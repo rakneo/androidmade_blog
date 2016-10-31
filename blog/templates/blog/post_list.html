@@ -43,7 +43,9 @@
 <div class="container-fluid">
 	<div class="row-fluid">
 	   <div class="col-md-10 col-lg-8" color="red">
-         body
+         {% for post in posts %}
+           {{ posts}}
+         {% end for %}
 	   </div>
        <div class="col-visible-md-4">
        Side Bar
