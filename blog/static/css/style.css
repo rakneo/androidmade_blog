@@ -3,13 +3,10 @@
 }
 
 .Title {
-  font-size: 120px;
-  font-family: "{% static fonts/Anastasya-Confession %}";
-  color: rgb(71, 72, 70);
-  line-height: 1.2;
+  font-size: 64px;
+  font-family: "Anastasya Confession";
+  color: white;
+  line-height: 0.2;
   text-align: left;
-  position: absolute;
-  left: 19.04px;
-  top: -44.259px;
-  z-index: 3;
+ 
 }
