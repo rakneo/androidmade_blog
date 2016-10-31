@@ -1,10 +1,11 @@
+{% load staticfiles %}
 .navbar-inverse{
   border-radius: 0;
 }
 
 .Title {
   font-size: 64px;
-  font-family: "Anastasya Confession";
+  font-family: "{% static 'fonts/Anastasya-Confession.otf' %}";
   color: white;
   line-height: 0.2;
   text-align: left;
