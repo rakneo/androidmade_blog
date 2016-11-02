@@ -20,20 +20,25 @@
         <span class="icon-bar"></span>
       </button>
                 <style>
-   @font-face{
-    font-family: 'AnastasyaConfession';
-    src: url('{% static 'fonts/Anastasya-Confession.otf' %}');
-    src: local('{% static 'fonts/Anastasya-Confession.otf' %}');
-  }
+
+@font-face {
+    font-family: 'anastasya_confession';
+    src: url({% 'static fonts/anastasya-confessionTitle.woff2' %}) format('woff2'),
+         url({% 'static fonts/anastasya-confessionTitle.ttf' %}) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
   .Title {
-      font-family: 'AnastasyaConfession';
+      font-family: 'anastasya_confession';
   }
 
 
      </style>
 
       <a class="navbar-brand Title" href="#">Android Made</a>
+
 
       <span>   </span>
     </div>
