@@ -19,14 +19,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand Title" href="#">Android Made</a>
-        <style>
-   .Title{
-    font-family: '{% static 'fonts/Anastasya-Confession.otf' %}';
+                <style>
+   @font-face{
+    font-family: Anastasya-Confession;
     src: url('{% static 'fonts/Anastasya-Confession.otf' %}');
     src: local('{% static 'fonts/Anastasya-Confession.otf' %}');
   }
+
+  .Title {
+      font-family: Anastasya-Confession;
+  }
+
+
      </style>
+
+      <a class="navbar-brand Title" href="#">Android Made</a>
+
       <span>   </span>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
